@@ -19,7 +19,32 @@ A REST API built with Python 3 and FastAPI to manage personal expenses. It suppo
 
 Ensure you have Python 3.8+ installed on your system.
 
-### 1. Install Dependencies
+### 1. Create and activate a virtual environment
+
+Use one of the commands below from the project root:
+
+#### PowerShell
+
+```powershell
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+```
+
+#### Command Prompt
+
+```cmd
+python -m venv venv
+venv\Scripts\activate.bat
+```
+
+#### Bash / Git Bash
+
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+### 2. Install Dependencies
 
 Run the following command from the project root to install the required packages:
 
