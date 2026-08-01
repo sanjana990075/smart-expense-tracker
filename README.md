@@ -27,6 +27,8 @@ Run the following command from the project root to install the required packages
 python -m pip install -r requirements.txt
 ```
 
+> Optional: you can use a `.env` file for local configuration values. The project already ignores `.env` so sensitive or environment-specific contents will not be committed.
+
 ---
 
 ## Running the Server
